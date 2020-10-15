@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exament2", "Exament2\Exament2.csproj", "{418171E1-96B5-4664-8DE0-34F33B776EAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{418171E1-96B5-4664-8DE0-34F33B776EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418171E1-96B5-4664-8DE0-34F33B776EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418171E1-96B5-4664-8DE0-34F33B776EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418171E1-96B5-4664-8DE0-34F33B776EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A141E2F8-7857-49FB-833A-57AF336F69F1}
+	EndGlobalSection
+EndGlobal

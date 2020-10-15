@@ -1,0 +1,35 @@
+﻿
+
+
+@{var pokemons = ((List<UsuarioPokemon>)ViewBag.Pokemons); }
+
+
+<h1>Pokemones</h1>
+<form action="/pokemon/Capturar" enctype="multipart/form-data" method="post">
+    <table class="table">
+
+        <thead>
+            <tr>
+
+                <th>Imagen</th>
+                <th>Tipo</th>
+                <th>Nombre</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var item in ViewBag.Pokemons)
+            {
+            <tr>
+                <td>@item.pokd</td>
+                <td>@item.pokemons.Imagen</td>
+                <td>@item.pokemons.Nombre</td>
+                <td>@item.pokemons.tipo.Nombre</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+    </form>
+
+
+

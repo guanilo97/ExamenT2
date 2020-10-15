@@ -1,0 +1,40 @@
+﻿
+
+
+@{var pokemons = ((List<Pokemons>)ViewBag.Pokemon); }
+
+
+<h1>Pokemones</h1>
+<a href="/pokemon/create">Crear pokemon</a>
+<table class="table">
+
+    <thead>
+        <tr>
+
+            <th>Imagen</th>
+            <th>Tipo</th>
+            <th>Nombre</th>
+            <th>opcion</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @for (var i = 0; i < pokemons.Count; i++)
+        {
+            var item = pokemons[i];
+        <tr>
+            <td>
+                <img src="@item.Imagen" width="100" alt="Alternate text" />
+            </td>
+            <td>@item.tipo.Nombre</td>
+            <td>@item.Nombre</td>
+            <td>
+                <a href="/Pokemon/Capturar?id=@item.Id">Capturar</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+
+
